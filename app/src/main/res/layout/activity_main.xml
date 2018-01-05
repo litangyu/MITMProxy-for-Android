@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.lty.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bind Service"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/btn_unbind"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unbind Service"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="92dp"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop Service"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="92dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start Service"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/btn_status"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="CA status"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/btn_test_ssl_socket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test SSL Socket"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/btn_test_ssl_server_socket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Test SSL Server Socket"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="16dp"/>
+</LinearLayout>
